@@ -249,8 +249,8 @@ Minimum Python version: **3.9+**
 ### Analysis 2 (Epigenetic Clocks)
 
 ```bash
-git clone https://github.com/FaiqaZarar/dna-methylation-analysis.git
-cd dna-methylation-analysis
+git clone https://github.com/fafzal31/Epigenetics-and-Aging-Analysis.git
+cd Epigenetics-and-Aging-Analysis
 pip install -r requirements.txt
 python 02_epic_array_aging_clocks/scripts/download_data.py
 jupyter notebook 02_epic_array_aging_clocks/notebooks/aging_clock_benchmarking.ipynb
