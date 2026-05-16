@@ -1,0 +1,45 @@
+# Data files (too large for git)
+*.fastq
+*.fastq.gz
+*.bam
+*.bam.bai
+*.bedGraph
+*.bigwig
+*.bw
+*.bed
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# GEO downloads (large)
+02_epic_array_aging_clocks/data/*.txt
+02_epic_array_aging_clocks/data/*.csv.gz
+02_epic_array_aging_clocks/data/*.soft.gz
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
