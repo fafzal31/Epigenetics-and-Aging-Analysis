@@ -31,7 +31,6 @@ dna-methylation-analysis/
 │   │   ├── raw/                        # Download scripts / SRA accessions
 │   │   └── processed/                  # Aligned BAMs, methylation BED files
 │   ├── scripts/                        # Shell wrappers for each pipeline step
-│   ├── results/                        # DMR tables, summary statistics (TSV/CSV)
 │   ├── figures/                        # All output figures (11 plots)
 │   └── README.md
 │
@@ -39,15 +38,11 @@ dna-methylation-analysis/
 │   ├── data/                           # GEO download scripts + sample metadata
 │   ├── notebooks/
 │   │   └── aging_clock_benchmarking.ipynb│   ├── scripts/                        # Modular Python scripts
-│   ├── results/                        # MAE tables, correlation matrices (CSV)
+│   ├── scripts/
 │   ├── figures/                        # All output plots (8 plots)
 │   └── README.md
-│
-├── docs/                               # Extended methods documentation
-│   ├── methods_wgbs.md
-│   └── methods_clocks.md
-│
-├── .github/workflows/ci.yml            # GitHub Actions: environment validation
+|
+├── ci.yml            # GitHub Actions: environment validation
 ├── .gitignore
 ├── environment.yml                     # Conda environment (Analysis 2)
 ├── requirements.txt                    # pip dependencies
